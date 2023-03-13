@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" type="text/css" href="calculatrice.css">
+    <script src="calculatrice.js"></script>
+</head>
+
+<body>
+
+    <div id="calculatrice">
+
+        <div class="affiche">0</div>
+        
+        <input type="text" class="calcul" value="0" disabled>
+
+        <div class="touches">
+
+            <button onclick="mathslog(value)" class="c0" value="0">0</button>
+            <button onclick="mathslog(value)" class="c1" value="1">1</button>
+            <button onclick="mathslog(value)" class="c2" value="2">2</button>
+            <button onclick="mathslog(value)" class="c3" value="3">3</button>
+            <button onclick="mathslog(value)" class="c4" value="4">4</button>
+            <button onclick="mathslog(value)" class="c5" value="5">5</button>
+            <button onclick="mathslog(value)" class="c6" value="6">6</button>
+            <button onclick="mathslog(value)" class="c7" value="7">7</button>
+            <button onclick="mathslog(value)" class="c8" value="8">8</button>
+            <button onclick="mathslog(value)" class="c9" value="9">9</button>
+        
+            <button onclick="mathslog(value)" class="plus" value="+">+</button>
+            <button onclick="mathslog(value)" class="moins" value="-">-</button>
+            <button onclick="mathslog(value)" class="mult" value="*">&times;</button>
+            <button onclick="mathslog(value)" class="divis" value="/">&divide;</button>
+            
+            <button onclick="mathslog(value)" class="point" value=".">.</button>
+            <button onclick="mathslog(value)" class="parouvr" value="(">)</button>
+            <button onclick="mathslog(value)" class="parferm" value=")">)</button>
+
+            <button onclick="actionlog(value)" class="reset" value="reset">C</button>
+            <button onclick="actionlog(value)" class="egal" value="exe">=</button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
