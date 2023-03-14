@@ -17,7 +17,7 @@ function actionlog(action) {
 }
 
 function ecriture(touche) {
-    if (document.getElementsByClassName("calcul")[0].value != 0) {
+    if (document.getElementsByClassName("calcul")[0].value != " ") {
         document.getElementsByClassName("calcul")[0].value += touche;
     }
     else {
@@ -31,7 +31,7 @@ function supprimer() {
 }
 
 function reset() {
-    document.getElementsByClassName("calcul")[0].value = 0;
+    document.getElementsByClassName("calcul")[0].value = " ";
 }
 
 function calculer() {
