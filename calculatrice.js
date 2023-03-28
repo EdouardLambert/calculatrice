@@ -18,16 +18,16 @@ class BaseCalculator {
         Plus exactement, elle ajoute un "=" qui marque l'execution du calcul et ajoute le resultat de celui-ci juste apres (equivalent du ANS sur une calculatrice standart)
 
         Nous pouvons continuer a enregistrer des actions, par exemple :
-        [ "0" , "=" , "6" , "*" , "7" , "=" , 42 , "+" ]
+        [ "=" , "6" , "*" , "7" , "=" , 42 , "+" ]
 
         Si nous cliquons sur DEL la derniere action sera supprime si celle juste avant n'est pas un "=" dans la liste :
-        [ "0" , "=" , "6" , "*" , "7" , "=" , 42 ]
+        [ "=" , "6" , "*" , "7" , "=" , 42 ]
         En revanche si l'action precedante est un "=" alors cela signifie que la derniere action de la list_actions est le resultat du calcul precedant,
         la calculatrice reaffiche donc le calcul precedant et adapte la list_action lorsqu'on clique sur DEL, dans ce cas :
-        [ "0" , "=" , "6" , "*" , "7" ]
+        [ "=" , "6" , "*" , "7" ]
 
         Nous pouvons reinitialiser entierement les calculs avec le bouton AC ce qui remettra la list_actions a :
-        [ "0" , "=" ]   */
+        [ "=" ]   */
     }
 
 
